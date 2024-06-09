@@ -1,0 +1,108 @@
+.imga {
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 206px;
+    left: 40rem;
+}
+.imgm {
+  width: 160px;
+  height: auto;
+  position: relative;
+  top: 193px;
+  left: 45rem;
+}
+.imgf {
+  width: 122px;
+  height: auto;
+  position: relative;
+  top: 186px;
+  left: 45rem;
+}
+.imgage.burger{
+transform: rotate(-15deg);
+position: relative;
+right: 62rem;
+}
+.image.astronaut{
+transform: rotate(-15deg);
+position: relative;
+right: 62rem;
+}
+.image.cup{
+transform: rotate(-15deg);
+position: relative;
+right: 62rem;
+}
+.title {
+    font-size: 23rem;
+    position: relative;
+    right: 18rem;
+    top: 5rem;
+    color: rgb(58, 50, 50);
+}
+
+.Jumpman{
+  font-size: 60px;
+  position: relative;
+  top: 25rem;
+  left: 75rem;
+  color: rgb(0, 0, 0);
+  font-family: "Carter One", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+header{
+  position: relative;
+  left: 75rem;
+  display: flex;
+  padding-top: 25px;
+  cursor: pointer;
+}
+
+ul li{
+  margin-right: 30px;
+  display: inline;
+  color: aliceblue;
+  transition: color 0.3s ease;
+}
+ul li a{
+  margin-right: 0px;
+  display: inline;
+  font-size: 40px;
+  color: aliceblue;
+  transition: color 0.3s ease;
+}
+ul li:hover {
+  color: #ff9800;
+  cursor: pointer;
+}
+ul li:hover a {
+color: #ff9800;
+cursor: pointer;
+}
+.buy-now-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e54f44;
+  border: 2px solid #7f3006;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100px;
+    height: auto;
+    position: relative;
+    top: 220px;
+    left: 40rem;
+}
+
+/* Hover effect */
+.buy-now-btn:hover {
+  background-color: #1d0e01;
+  box-shadow: 0 6px 8px rgba(241, 98, 32, 0.2);
+  color: #fc5922;
+}
